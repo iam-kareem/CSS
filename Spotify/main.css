@@ -1,0 +1,281 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+}
+#nav{
+    /* border: 2px solid; */
+    height: 80px;
+    background-color: #000;
+
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 75%;
+    margin: auto;
+}
+#sub-nav span svg{
+    height: 3em;
+    margin-top: 15px;
+    fill: #fff;
+}
+#sub-nav p{
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 33px;
+    left: 60%;
+    font-weight: 700;
+    font-size: 16px;
+    word-spacing: 15px;
+    color: #fff;
+}
+#main{
+    border: 2px solid transparent;
+    height: 565px;
+    background-color: #9c2fec;;
+}
+#sub-main{
+    /* border: 3px solid red; */
+    height: inherit;
+    width: 75%;
+    margin: auto;
+}
+#left h1{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 70px;
+}
+#left h2{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#left div{
+    margin-top: 40px;
+}
+#left div button{
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+#left div button +button{
+    border: 2px solid;
+    background: none;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+}
+#right{
+    /* border: 2px solid; */
+    height: 400px;
+    width: 400px;
+    background-image: url("./asserts/spotify\ img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 150px;
+    right: 220px;
+}
+#foot{
+    color:#fff;
+    font-weight: 400;
+    position: absolute;
+    top: 560px;
+    line-height: 28px;
+}
+table{
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid; */
+}
+#red{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.samefont{
+    font-size: 18px;
+    font-weight: 600;
+}
+.sameheight{
+    height: 142px;
+    width: 142px;
+}
+#arrange{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding-top: 200px;
+    gap: 50px;
+}
+#cards{
+    border: 2px solid transparent;
+    height:800px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+#belowposter{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 35px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+#online{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+    list-style-type: none;
+    width: 100%;
+}
+#blue{
+    height: 20px;
+    width: 29px;
+}
+#cardsarrange{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 30px;
+
+}
+#card1{
+    /* border: 2px solid; */
+    height: 500px;
+    width: 250px;
+    /* position:absolute; */
+    top: 1400px;
+    left: 20px;
+    border-radius: 5px;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+    box-shadow:0px 0px 4px grey;
+
+}
+#card2{
+    /* border: 2px solid; */
+    height: 500px;
+    width: 250px;
+    /* position:absolute; */
+    top: 1400px;
+    left: 400px;
+    border-radius: 5px;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+    box-shadow:0px 0px 4px grey;
+}
+#card3{
+    /* border: 2px solid; */
+    height: 500px;
+    width: 250px;
+    /* position:absolute; */
+    top: 1400px;
+    left: 820px;
+    border-radius: 5px;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+    box-shadow:0px 0px 4px grey;
+}
+#card4{
+    /* border: 2px solid; */
+    height: 500px;
+    width: 250px;
+    align-items: center;
+    top: 1400px;
+    left: 1200px;
+    border-radius: 5px;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+    box-shadow:0px 0px 4px grey;
+}
+#onetimeplan{
+    border: 1px solid rgb(13, 114, 234);
+    color: rgb(13, 114, 234);
+    font-weight:bold;
+    font-size:14px;
+    margin-left: 3px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    
+}
+.mini{
+    font-size: 20px;
+    font-weight: bold;
+}
+.vp{
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 70px;
+}
+#unique{
+    align-self:normal;
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+}
+#hello{
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 30px;
+}
+.down{
+    color: black;
+    font-size: 10px;
+}
+#clear{
+    text-decoration: none;
+}
+#end{
+    height: 70px;
+    width: 800px;
+    font-weight: bold;
+    font-size: 22px;
+    /* border: 2px solid; */
+    margin-left: 400px;
+    padding-left: 80px;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+}
+#tom{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    /* background-color:white; */
+    color:black;
+    margin-left: 15px;
+    border: 2px solid black;
+    font-size:medium;
+    font-weight: bold;
+}
